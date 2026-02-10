@@ -14,12 +14,9 @@ const index = () => {
       </Text >
 
       <View style={styles.card}>
-        <Text>
-          About Us
-        </Text>
-
         <Link href="/aboutApp" style={styles.linkButton}> About our app</Link>
         <Link href="/aboutIsaiah" style={styles.linkButton}> About Isaiah</Link>
+        <Link href="/aboutSylas" style={styles.linkButton}> About Sylas</Link>
       </View>
     </View>
   )
