@@ -12,7 +12,6 @@ const aboutapp = () => {
       </Text>
 
       <Link href="/" style={styles.linkButton}> Back to Home Page</Link>
-      <Link href="/aboutIsaiah" style={styles.linkButton}> About Isaiah</Link>
     </View>
   )
 }

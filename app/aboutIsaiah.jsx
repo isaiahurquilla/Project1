@@ -10,13 +10,7 @@ const index = () => {
       <Text style={{marginTop: 10, marginBottom: 30}}>
         by Isaiah
       </Text >
-
-      <View style={styles.card}>
-        <Text>
-          About Isaiah
-        </Text>
-
-      </View>
+      <Link href="/" style={styles.linkButton}> Back to Home Page</Link>
     </View>
   )
 }

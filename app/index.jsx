@@ -19,7 +19,7 @@ const index = () => {
         </Text>
 
         <Link href="/aboutApp" style={styles.linkButton}> About our app</Link>
-
+        <Link href="/aboutIsaiah" style={styles.linkButton}> About Isaiah</Link>
       </View>
     </View>
   )
