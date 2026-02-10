@@ -1,14 +1,45 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View, Image } from 'react-native'
 import React from 'react'
+import Bootzie from '../assets/BootSmug.png'
 
 const index = () => {
   return (
-    <View>
-      <Text>index</Text>
+    <View style={styles.container}>
+      <Image source={Bootzie} style={{ width: 100, height: 100 }} />
+
+      <Text style={styles.title}> Welcome to Our Introduction App</Text>
+      <Text style={{marginTop: 10, marginBottom: 30}}>
+        by Sylas and Isaiah
+      </Text >
+
+      <View style={styles.card}>
+        <Text>
+          About Us
+        </Text>
+
+      </View>
     </View>
   )
 }
 
 export default index
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#b8b8b8ff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  title: {
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  card: {
+    backgroundColor: '#fff',
+    borderRadius: 5,
+    padding: 20,
+    marginBottom: 20,
+    boxShadow: ' 4px 6px rgba(0, 0, 0, 0.1)',
+  }
+})
