@@ -1,6 +1,8 @@
 import { StyleSheet, Text, View, Image } from 'react-native'
 import React from 'react'
 import Isaiah from '../assets/Isaiah.jpg'
+import { Link, link } from 'expo-router'
+
 const index = () => {
   return (
     <View style={styles.container}>
