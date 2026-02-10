@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View, Image } from 'react-native'
 import React from 'react'
 import Bootzie from '../assets/BootSmug.png'
+import { Link, link } from 'expo-router'
 
 const index = () => {
   return (
@@ -16,6 +17,8 @@ const index = () => {
         <Text>
           About Us
         </Text>
+
+        <Link href="/aboutApp" style={styles.linkButton}> About our app</Link>
 
       </View>
     </View>
@@ -35,7 +38,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
   },
-  card: {
+  linkButton: {
     backgroundColor: '#fff',
     borderRadius: 5,
     padding: 20,
