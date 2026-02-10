@@ -3,7 +3,7 @@ import React from 'react'
 import Isaiah from '../assets/Isaiah.jpg'
 import { Link, link } from 'expo-router'
 
-const index = () => {
+const aboutIsaiah = () => {
   return (
     <View style={styles.container}>
       <Image source={Isaiah} style={{ width: 100, height: 100 }} />
@@ -17,7 +17,7 @@ const index = () => {
   )
 }
 
-export default index
+export default aboutIsaiah
 
 const styles = StyleSheet.create({
   container: {
@@ -29,6 +29,13 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     fontWeight: 'bold',
+  },
+  linkButton: {
+    backgroundColor: '#fff',
+    borderRadius: 5,
+    padding: 20,
+    marginBottom: 20,
+    boxShadow: ' 4px 6px rgba(0, 0, 0, 0.1)',
   },
   card: {
     backgroundColor: '#fff',
