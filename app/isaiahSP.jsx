@@ -10,7 +10,9 @@ const IsaiahSP = () => {
 
                 <Text style={styles.regularText}>
                     Some skills I have would include Java, Python, javscript, I am currently learning how to use React Native.{"\n\n"}
-                    Some of my project ideas include building a personal website to show off some of my apps, building some kind of useful app which I haven't decided on yet, and making simple a video game.{"\n\n"}
+                    I haven't made any fully working personal projects besides simple things such as a library system on intellij.{"\n\n"} 
+                    However, with some friends and classmates, we have made some projects such as a simple tower defense type game that mimics "plants vs zombies" called "college vs students".{"\n\n"}
+
                 </Text>
 
                 <Link href="/" style={styles.linkButton}>Back to Home Page</Link>
