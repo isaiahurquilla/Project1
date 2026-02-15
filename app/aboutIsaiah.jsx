@@ -2,7 +2,6 @@ import { StyleSheet, Text, View, Image, ScrollView } from 'react-native'
 import React from 'react'
 import Isaiah from '../assets/Isaiah.jpg'
 import { Link } from 'expo-router'
-import aboutapp from './aboutSylas'
 
 const AboutIsaiah = () => {
   return (
@@ -11,15 +10,17 @@ const AboutIsaiah = () => {
         <Image source={Isaiah} style={{ width: 100, height: 100 }} />
 
         <Text style={styles.title}>Hello everyone! My name is Isaiah, and I am one of the creators of this app</Text>
+        
+        <Text style={styles.subTitle}>Introduction</Text>
 
         <Text style={styles.regularText}>
           I was born in December 2001, in Montebello.{"\n\n"}
 
-          I am an undergraduate student at CSUB, majoring in Computer Science.{"\n\n"}
+          I am an undergraduate student at CSUB, majoring in Computer Science.{"\n\n"}</Text>
 
-          I have a personal interest in programming and music making, but the second one is just a hobby.{"\n\n"}
+        <Text style={styles.subTitle}>Interests and Career Goals</Text> 
 
-          I am striving towards becoming a software engineer, but I am also open to exploring other career paths in the tech industry.{"\n\n"}
+        <Text style={styles.regularText}>I have a personal interest in programming and music making, but the second one is just a hobby.{"\n\n"}
 
           I am learning that there is so much encapsulated within the field of computer science, and I am trying to find my own path within it.{"\n\n"}
 
@@ -30,6 +31,8 @@ const AboutIsaiah = () => {
           What ended up sparking my interest in Computer Science was my father-in-law, who tried getting me into CyberSecurity, and I even had that as my major in community college for a while.{"\n\n"}
 
           However, I found that I was very interested in programming but not so interested in the hardware aspect of I.T. That’s when I changed my major to Computer Science, and my interest in this field has only grown ever since.
+
+          For these reasons, I am striving towards becoming a software engineer, but I am also open to exploring other career paths in the tech industry.{"\n\n"}
         </Text>
 
         <Link href="/" style={styles.linkButton}>Back to Home Page</Link>
@@ -54,9 +57,16 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   title: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    marginVertical: 15,
+  },
+  subTitle: {
     fontSize: 18,
     fontWeight: 'bold',
     marginVertical: 15,
+    textAlign: 'center',
+    width: '100%',
   },
   linkButton: {
     backgroundColor: '#fff',
@@ -73,6 +83,8 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "400",
     marginTop: 10, 
-    marginBottom: 10
+    marginBottom: 10,
+    textAlign: 'left',
+    width: '100%',
   },
 })
