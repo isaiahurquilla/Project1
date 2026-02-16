@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, Image } from 'react-native'
 import React from 'react'
 import Bootzie from '../assets/BootSmug.png'
-import { Link, link } from 'expo-router'
+import LinkButton from './LinkButton'
 
 const index = () => {
   return (
@@ -14,10 +14,10 @@ const index = () => {
       </Text>
 
       <View style={styles.card}>
-        <Link href="/aboutApp" style={styles.linkButton}> About our app</Link>
-        <Link href = "/goalsPage" style={styles.linkButton}> Goals and Plans</Link>
-        <Link href="/aboutIsaiah" style={styles.linkButton}> About Isaiah</Link>
-        <Link href="/aboutSylas" style={styles.linkButton}> About Sylas</Link>
+        <LinkButton href="/aboutApp">About our app</LinkButton>
+        <LinkButton href="/goalsPage">Goals and Plans</LinkButton>
+        <LinkButton href="/aboutIsaiah">About Isaiah</LinkButton>
+        <LinkButton href="/aboutSylas">About Sylas</LinkButton>
       </View>
     </View>
   )
@@ -28,7 +28,7 @@ export default index
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#b8b8b8ff',
+    backgroundColor: 'rgb(101, 151, 160)',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -36,11 +36,4 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
   },
-  linkButton: {
-    backgroundColor: '#fff',
-    borderRadius: 5,
-    padding: 20,
-    marginBottom: 20,
-    boxShadow: ' 4px 6px rgba(0, 0, 0, 0.1)',
-  }
 })

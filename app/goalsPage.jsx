@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View, ScrollView } from 'react-native'
 import React from 'react'
 import { Link } from 'expo-router'
+import LinkButton from './LinkButton'
 
 const GoalsPage = () => {
     return (
@@ -43,7 +44,7 @@ const GoalsPage = () => {
                         <Text style={styles.goalText}></Text>
                     
                 
-                <Link href="/" style={styles.linkButton}>Back to Home Page</Link>
+                <LinkButton href="/">Back to Home Page</LinkButton>
             </View>
         </ScrollView>
     )
@@ -82,13 +83,14 @@ const styles = StyleSheet.create({
     fontWeight: 'normal', //Adjusted so text wouldn't be bold
     },
     linkButton: {
-        backgroundColor: '#4CAF50',
-        borderRadius: 5,
-        padding: 15,
-        alignSelf: 'center',
-        color: '#fff',
-        fontWeight: 'bold',
-        marginBottom: 20,
-        overflow: 'hidden',
-    },
+    backgroundColor: '#4CAF50',
+    borderRadius: 5,
+    padding: 20,
+    marginBottom: 20,
+    elevation: 3,
+    color: '#fff',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.1,
+    shadowRadius: 6,
+  }
 })

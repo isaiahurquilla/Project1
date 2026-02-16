@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View, Image, ScrollView } from 'react-native'
 import React from 'react'
-import { Link } from 'expo-router'
+import LinkButton from './LinkButton'
 
 const IsaiahSP = () => {
     return (
@@ -21,7 +21,7 @@ const IsaiahSP = () => {
                     However, what I realized was that they're alll either too expensive, not user friendly and innaccurate.{"\n\n"}
                     So, I would like to make an app that is free, easy to use and accurate for counting individual items and not just premade meals.{"\n\n"}
                 </Text>
-                <Link href="/" style={styles.linkButton}>Back to Home Page</Link>
+                <LinkButton href="/">Back to Home Page</LinkButton>
             </View>
         </ScrollView>
     )
@@ -51,19 +51,10 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     width: '100%',
     },
-    linkButton: {
-        backgroundColor: '#4CAF50',
-        borderRadius: 5,
-        padding: 20,
-        marginBottom: 20,
-        elevation: 3,
-        color: '#fff',
-        alignSelf: 'center',
-    },
     regularText: {
     fontSize: 16,
     fontWeight: "400",
     marginTop: 10, 
     marginBottom: 10
-  },
+  }
 })
