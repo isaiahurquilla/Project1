@@ -22,7 +22,7 @@ const aboutapp = () => {
       </Text>
       <Text style={styles.regularText}>
         Some of my project ideas include building a personal website to show off some of my apps, 
-        building some kind of useful app which I haven't decided on yet, and making simple a video game.
+        building some kind of useful app which I haven't decided on yet, and making a simple video game.
       </Text>
       <Text style={styles.regularText}>
         My simple video game idea is still in the early idea stages but the goal is to attempt to make something 
@@ -30,7 +30,7 @@ const aboutapp = () => {
       </Text>
       <Text style={styles.regularText}>
         A project that I am currently working on this semester is making a security camera by using an 
-        ESP32, the project is still in the planning phase but is coming along nicely
+        ESP32, the project is still in the planning phase but is coming along nicely.
       </Text>
       <Text style={styles.regularText}>
 

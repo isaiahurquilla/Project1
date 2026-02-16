@@ -35,7 +35,7 @@ const GoalsPage = () => {
                     
                    
                         <Text style={styles.goalTitle}>Making a personal project</Text>
-                        <Text style={styles.goalText}>I want to make a personal project that I can be proud of and that showcases my skills in programming, Even if I don't make a finished project, I'd like to have made some progress on it{"\n\n"}</Text>
+                        <Text style={styles.goalText}>I want to make a personal project that I can be proud of and that showcases my skills in programming, Even if I don't make a finished project, I'd like to have made some progress on it.{"\n\n"}</Text>
                   
                     
                     
