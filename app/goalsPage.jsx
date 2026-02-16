@@ -5,13 +5,13 @@ import LinkButton from './LinkButton'
 
 const GoalsPage = () => {
     return (
-        <ScrollView style={{ backgroundColor: "#ede6ff" }} contentContainerStyle={styles.scrollContainer}>
+        <ScrollView style={{ backgroundColor: '#ADD8E6' }} contentContainerStyle={styles.scrollContainer}>
             <View style={styles.container}>
                 <Text style={styles.title}>Learning Goals</Text>
                     <Text style={styles.subTitle}>Isaiah's Goals</Text>
                     
                     
-                        <Text style={styles.goalTitle}>Master Linux</Text>
+                        <Text style={styles.goalTitle}>Improve in Linux</Text>
                         <Text style={styles.goalText}>Build proficiency in Linux so that I can make apps more effectively without constantly searching up keyterms.{"\n\n"}</Text>
                     
                     
@@ -21,8 +21,8 @@ const GoalsPage = () => {
                     
                     
                     
-                        <Text style={styles.goalTitle}></Text>
-                        <Text style={styles.goalText}>{"\n\n"}</Text>
+                        <Text style={styles.goalTitle}>Developing My Own Projects</Text>
+                        <Text style={styles.goalText}>I want to make an app that I can safely say is my own creation and improve in my ability to make projects such as these.{"\n\n"}</Text>
                     
                 
 

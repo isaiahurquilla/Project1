@@ -10,7 +10,7 @@ const IsaiahSP = () => {
                 <Text style={styles.subTitle}>Skills</Text>
                 <Text style={styles.regularText}>
                     Some skills I have would include Java, Python, C++, I am currently learning how to use React Native.{"\n\n"}
-                    I haven't made any fully working personal projects besides simple things such as a library system on intellij.{"\n\n"} 
+                    I haven't made any fully working personal projects besides simple things such as a library system on intellij, which is available to be viewed on my GitHub link.{"\n\n"} 
                     However, with some friends and classmates, we have made some projects such as a simple tower defense type game that mimics "plants vs zombies" called "college vs students".{"\n\n"}
                 </Text>
                 <Text style={styles.subTitle}>Project Ideas</Text>

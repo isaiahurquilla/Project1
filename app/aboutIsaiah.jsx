@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, Image, ScrollView } from 'react-native'
 import React from 'react'
 import Isaiah from '../assets/Isaiah.jpg'
-import { Link } from 'expo-router'
+import LinkButton from './LinkButton'
 
 const AboutIsaiah = () => {
   return (
@@ -35,9 +35,9 @@ const AboutIsaiah = () => {
           For these reasons, I am striving towards becoming a software engineer, but I am also open to exploring other career paths in the tech industry.{"\n\n"}
         </Text>
 
-        <Link href="/" style={styles.linkButton}>Back to Home Page</Link>
-        <Link href="https://github.com/isaiahurquilla" style={styles.linkButton}>Github Page</Link>
-        <Link href="/isaiahSP" style={styles.linkButton}>Skills and Projects</Link>
+        <LinkButton href="/" style={styles.linkButton}>Back to Home Page</LinkButton>
+        <LinkButton href="https://github.com/isaiahurquilla" style={styles.linkButton}>Github Page</LinkButton>
+        <LinkButton href="/isaiahSP" style={styles.linkButton}>Skills and Projects</LinkButton>
       </View>
     </ScrollView>
   )
@@ -67,17 +67,6 @@ const styles = StyleSheet.create({
     marginVertical: 15,
     textAlign: 'center',
     width: '100%',
-  },
-  linkButton: {
-    backgroundColor: '#4CAF50',
-    borderRadius: 5,
-    padding: 20,
-    marginBottom: 20,
-    elevation: 3,
-    color: '#fff',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.1,
-    shadowRadius: 6,
   },
   regularText: {
     fontSize: 16,

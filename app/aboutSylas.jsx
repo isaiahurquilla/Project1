@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View, Image, ScrollView} from 'react-native'
 import React from 'react'
-import{ Link, link } from 'expo-router'
+import LinkButton from './LinkButton'
 
 const aboutapp = () => {
   return (
@@ -46,9 +46,9 @@ const aboutapp = () => {
             Oh also the dog on the home page is my dog Bootzie when he was a baby, he's a Yorkshire Terrier.
         </Text>
         
-        <Link href="/sylasSP" style={styles.linkButton}> Skills / Project ideas</Link>
-        <Link href="https://github.com/ssanchez124" style={styles.linkButton}> View My GitHub Profile</Link>
-        <Link href="/" style={styles.linkButton}> Back to Home Page</Link>
+        <LinkButton href="/sylasSP" style={styles.linkButton}> Skills / Project ideas</LinkButton>
+        <LinkButton href="https://github.com/ssanchez124" style={styles.linkButton}> View My GitHub Profile</LinkButton>
+        <LinkButton href="/" style={styles.linkButton}> Back to Home Page</LinkButton>
       </View>
     </ScrollView>
   )
@@ -69,13 +69,6 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     fontWeight: 'bold',
-  },
-  linkButton: {
-    backgroundColor: '#fff',
-    borderRadius: 5,
-    padding: 20,
-    marginBottom: 20,
-    boxShadow: ' 4px 6px rgba(0, 0, 0, 0.1)',
   },
   regularText: {
     fontSize: 16,

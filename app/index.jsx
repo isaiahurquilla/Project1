@@ -1,24 +1,22 @@
 import { StyleSheet, Text, View, Image } from 'react-native'
 import React from 'react'
 import Bootzie from '../assets/BootSmug.png'
+import Shadow from '../assets/Shadow.jpg'
 import LinkButton from './LinkButton'
 
 const index = () => {
   return (
     <View style={styles.container}>
-      <Image source={Bootzie} style={{ width: 100, height: 100}} />
-
-      <Text style={styles.title}> Welcome to Our Introduction App</Text>
-      <Text style={{marginTop: 10, marginBottom: 30, textAlign: 'center', width: '100%' }}>
-        by Sylas and Isaiah
-      </Text>
-
-      <View style={styles.card}>
+    <View style={styles.imageRow}>
+      <Image source={Bootzie} style={{ width: 200, height: 200 }} />
+      <Image source={Shadow} style={{ width: 200, height: 200 }} />
+    </View>
+      <Text style={styles.title}>Introduction App {"\n\n"}</Text>
         <LinkButton href="/aboutApp">About our app</LinkButton>
         <LinkButton href="/goalsPage">Goals and Plans</LinkButton>
         <LinkButton href="/aboutIsaiah">About Isaiah</LinkButton>
         <LinkButton href="/aboutSylas">About Sylas</LinkButton>
-      </View>
+      <LinkButton href="/Gallery">Gallery</LinkButton>
     </View>
   )
 }
@@ -28,12 +26,19 @@ export default index
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'rgb(101, 151, 160)',
+    backgroundColor: '#ADD8E6',
     alignItems: 'center',
     justifyContent: 'center',
   },
   title: {
-    fontSize: 18,
+    fontSize: 22,
     fontWeight: 'bold',
   },
+  imageRow: {
+    flexDirection: 'row',      // ⭐ puts them side by side
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: 20,                   // spacing (works in modern RN + web)
+    marginBottom: 20,
+  }
 })

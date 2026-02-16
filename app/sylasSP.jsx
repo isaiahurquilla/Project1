@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View, Image } from 'react-native'
 import React from 'react'
-import{ Link, link } from 'expo-router'
+import LinkButton from './LinkButton'
 
 const aboutapp = () => {
   return (
@@ -38,7 +38,7 @@ const aboutapp = () => {
       <Text style={styles.regularText}>
 
       </Text>
-      <Link href="/aboutSylas" style={styles.linkButton}> Back to my About Page</Link>
+      <LinkButton href="/aboutSylas" style={styles.linkButton}> Back to my About Page</LinkButton>
     </View>
   )
 }
@@ -55,13 +55,6 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     fontWeight: 'bold',
-  },
-  linkButton: {
-    backgroundColor: '#fff',
-    borderRadius: 5,
-    padding: 20,
-    marginBottom: 20,
-    boxShadow: ' 4px 6px rgba(0, 0, 0, 0.1)',
   },
   regularText: {
     fontSize: 16,
