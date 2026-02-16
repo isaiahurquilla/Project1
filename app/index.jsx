@@ -18,6 +18,7 @@ const index = () => {
         <Link href = "/goalsPage" style={styles.linkButton}> Goals and Plans</Link>
         <Link href="/aboutIsaiah" style={styles.linkButton}> About Isaiah</Link>
         <Link href="/aboutSylas" style={styles.linkButton}> About Sylas</Link>
+        <Link href="/Gallery" style={styles.linkButton}> Gallery</Link>
       </View>
     </View>
   )
