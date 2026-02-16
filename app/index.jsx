@@ -3,22 +3,10 @@ import React from 'react'
 import Bootzie from '../assets/BootSmug.png'
 import Shadow from '../assets/Shadow.jpg'
 import LinkButton from './LinkButton'
-import Shadow from '../assets/Shadow.jpg'
-import LinkButton from './LinkButton'
 
 const index = () => {
   return (
     <View style={styles.container}>
-    <View style={styles.imageRow}>
-      <Image source={Bootzie} style={{ width: 200, height: 200 }} />
-      <Image source={Shadow} style={{ width: 200, height: 200 }} />
-    </View>
-      <Text style={styles.title}>Introduction App {"\n\n"}</Text>
-        <LinkButton href="/aboutApp">About our app</LinkButton>
-        <LinkButton href="/goalsPage">Goals and Plans</LinkButton>
-        <LinkButton href="/aboutIsaiah">About Isaiah</LinkButton>
-        <LinkButton href="/aboutSylas">About Sylas</LinkButton>
-      <LinkButton href="/Gallery">Gallery</LinkButton>
     <View style={styles.imageRow}>
       <Image source={Bootzie} style={{ width: 200, height: 200 }} />
       <Image source={Shadow} style={{ width: 200, height: 200 }} />

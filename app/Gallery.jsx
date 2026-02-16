@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View, Image, ScrollView } from 'react-native'
 import React from 'react'
+import LottieView from 'lottie-react-native';
 import LinkButton from './LinkButton'
 
 const images = [
@@ -16,6 +17,14 @@ const Gallery = () => {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.title}>Gallery</Text>
+      <View style={styles.animationContainer}>
+        <LottieView
+          source={require('../assets/Cat.json')}
+          autoPlay
+          loop
+          style={styles.animation}
+        />
+      </View>
 
       <View style={styles.grid}>
         {images.map((item, idx) => (
@@ -39,6 +48,14 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     backgroundColor: '#b8b8b8ff',
     alignItems: 'center',
+  },
+  animationContainer: {
+    alignItems: 'center',
+    marginBottom: 20,
+  },
+  animation: {
+    width: 200,
+    height: 200,
   },
   title: {
     fontSize: 22,
