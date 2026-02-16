@@ -5,9 +5,9 @@ import{ Link, link } from 'expo-router'
 const aboutapp = () => {
   return (
     <View style={styles.container}>
-      <Image source={('../assets/favicon.png')} style={{ width: 100, height: 100 }} />
+      <Image source={require('../assets/favicon.png')} style={{ width: 100, height: 100 }} />
 
-      <Text style={styles.regularText}>
+      <Text style={[styles.regularText, { marginTop: 20, marginBottom: 20 }]}>
         This is an introduction app created by Sylas and Isaiah. We are both students at the California State Bakersfield, and we are creating mobile app using React Native and Expo. We hope you enjoy our app!
       </Text>
 
