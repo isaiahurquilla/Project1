@@ -29,18 +29,18 @@ const GoalsPage = () => {
                     <Text style={styles.subTitle}>Sylas's Goals</Text>
                     
                     
-                        <Text style={styles.goalTitle}></Text>
-                        <Text style={styles.goalText}></Text>
+                        <Text style={styles.goalTitle}>Improving coordination with a team</Text>
+                        <Text style={styles.goalText}>The handful of times I've worked on a team have been enjoyable but I want to improve my effectiveness in a team by improving my corrdination with team members.{"\n\n"}</Text>
                     
                     
                    
-                        <Text style={styles.goalTitle}></Text>
-                        <Text style={styles.goalText}></Text>
+                        <Text style={styles.goalTitle}>Making a personal project</Text>
+                        <Text style={styles.goalText}>I want to make a personal project that I can be proud of and that showcases my skills in programming, Even if I don't make a finished project, I'd like to have made some progress on it{"\n\n"}</Text>
                   
                     
                     
-                        <Text style={styles.goalTitle}></Text>
-                        <Text style={styles.goalText}></Text>
+                        <Text style={styles.goalTitle}>Improving skills in coding languages</Text>
+                        <Text style={styles.goalText}>I want to improve my skills in programming languages such as JavaScript, and C++ as I feel there is room for improvement. I've also got my sights on learning other coding languages like LUA.{"\n\n"}</Text>
                     
                 
                 <Link href="/" style={styles.linkButton}>Back to Home Page</Link>
