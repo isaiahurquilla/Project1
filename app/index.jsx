@@ -6,15 +6,16 @@ import { Link, link } from 'expo-router'
 const index = () => {
   return (
     <View style={styles.container}>
-      <Image source={Bootzie} style={{ width: 100, height: 100 }} />
+      <Image source={Bootzie} style={{ width: 100, height: 100}} />
 
       <Text style={styles.title}> Welcome to Our Introduction App</Text>
-      <Text style={{marginTop: 10, marginBottom: 30}}>
+      <Text style={{marginTop: 10, marginBottom: 30, textAlign: 'center', width: '100%' }}>
         by Sylas and Isaiah
-      </Text >
+      </Text>
 
       <View style={styles.card}>
         <Link href="/aboutApp" style={styles.linkButton}> About our app</Link>
+        <Link href = "/goalsPage" style={styles.linkButton}> Goals and Plans</Link>
         <Link href="/aboutIsaiah" style={styles.linkButton}> About Isaiah</Link>
         <Link href="/aboutSylas" style={styles.linkButton}> About Sylas</Link>
       </View>

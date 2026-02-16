@@ -9,7 +9,7 @@ const IsaiahSP = () => {
                 <Text style={styles.title}>Skills and Projects</Text>
                 <Text style={styles.subTitle}>Skills</Text>
                 <Text style={styles.regularText}>
-                    Some skills I have would include Java, Python, javscript, I am currently learning how to use React Native.{"\n\n"}
+                    Some skills I have would include Java, Python, C++, I am currently learning how to use React Native.{"\n\n"}
                     I haven't made any fully working personal projects besides simple things such as a library system on intellij.{"\n\n"} 
                     However, with some friends and classmates, we have made some projects such as a simple tower defense type game that mimics "plants vs zombies" called "college vs students".{"\n\n"}
                 </Text>
@@ -52,16 +52,13 @@ const styles = StyleSheet.create({
     width: '100%',
     },
     linkButton: {
-        backgroundColor: '#fff',
+        backgroundColor: '#4CAF50',
         borderRadius: 5,
         padding: 20,
         marginBottom: 20,
         elevation: 3,
+        color: '#fff',
         alignSelf: 'center',
-        shadowColor: '#000',
-        shadowOffset: { width: 0, height: 4 },
-        shadowOpacity: 0.1,
-        shadowRadius: 6,
     },
     regularText: {
     fontSize: 16,
