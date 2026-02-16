@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View, Image, ScrollView } from 'react-native'
 import React from 'react'
+import { Link, link } from 'expo-router'
 
 const images = [
   { src: require('../assets/BootzieBed.png'), caption: "Sylas's dog Bootzie" },
@@ -24,6 +25,7 @@ const Gallery = () => {
           </View>
         ))}
       </View>
+        <Link href="/" style={styles.linkButton}>Back to Home Page</Link>
     </ScrollView>
   )
 }
@@ -71,5 +73,12 @@ const styles = StyleSheet.create({
     paddingHorizontal: 6,
     textAlign: 'center',
     width: '100%'
+  },
+  linkButton: {
+    backgroundColor: '#fff',
+    borderRadius: 5,
+    padding: 20,
+    marginBottom: 20,
+    boxShadow: ' 4px 6px rgba(0, 0, 0, 0.1)',
   }
 })
