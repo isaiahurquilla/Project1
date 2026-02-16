@@ -35,10 +35,10 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   imageRow: {
-    flexDirection: 'row',      // ⭐ puts them side by side
+    flexDirection: 'row',      //  puts them side by side
     justifyContent: 'center',
     alignItems: 'center',
-    gap: 20,                   // spacing (works in modern RN + web)
+    gap: 20,                   // spacing between the images
     marginBottom: 20,
   }
 })
