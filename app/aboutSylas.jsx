@@ -1,6 +1,10 @@
 import { StyleSheet, Text, View, Image, ScrollView} from 'react-native'
 import React from 'react'
+<<<<<<< HEAD
 import{ Link, link } from 'expo-router'
+=======
+import LinkButton from './LinkButton'
+>>>>>>> 0cd26bae055ca4f3caa64f31726b251ec0cd513a
 
 const aboutapp = () => {
   return (
@@ -46,9 +50,15 @@ const aboutapp = () => {
             Oh also the dog on the home page is my dog Bootzie when he was a baby, he's a Yorkshire Terrier.
         </Text>
         
+<<<<<<< HEAD
         <Link href="/sylasSP" style={styles.linkButton}> Skills / Project ideas</Link>
         <Link href="https://github.com/ssanchez124" style={styles.linkButton}> View My GitHub Profile</Link>
         <Link href="/" style={styles.linkButton}> Back to Home Page</Link>
+=======
+        <LinkButton href="/sylasSP" style={styles.linkButton}> Skills / Project ideas</LinkButton>
+        <LinkButton href="https://github.com/ssanchez124" style={styles.linkButton}> View My GitHub Profile</LinkButton>
+        <LinkButton href="/" style={styles.linkButton}> Back to Home Page</LinkButton>
+>>>>>>> 0cd26bae055ca4f3caa64f31726b251ec0cd513a
       </View>
     </ScrollView>
   )
@@ -70,6 +80,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
   },
+<<<<<<< HEAD
   linkButton: {
     backgroundColor: '#fff',
     borderRadius: 5,
@@ -77,6 +88,8 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     boxShadow: ' 4px 6px rgba(0, 0, 0, 0.1)',
   },
+=======
+>>>>>>> 0cd26bae055ca4f3caa64f31726b251ec0cd513a
   regularText: {
     fontSize: 16,
     fontWeight: "400",

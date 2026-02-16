@@ -1,6 +1,10 @@
 import { StyleSheet, Text, View, Image } from 'react-native'
 import React from 'react'
+<<<<<<< HEAD
 import{ Link, link } from 'expo-router'
+=======
+import LinkButton from './LinkButton'
+>>>>>>> 0cd26bae055ca4f3caa64f31726b251ec0cd513a
 
 const aboutapp = () => {
   return (
@@ -38,7 +42,11 @@ const aboutapp = () => {
       <Text style={styles.regularText}>
 
       </Text>
+<<<<<<< HEAD
       <Link href="/aboutSylas" style={styles.linkButton}> Back to my About Page</Link>
+=======
+      <LinkButton href="/aboutSylas" style={styles.linkButton}> Back to my About Page</LinkButton>
+>>>>>>> 0cd26bae055ca4f3caa64f31726b251ec0cd513a
     </View>
   )
 }
@@ -56,6 +64,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
   },
+<<<<<<< HEAD
   linkButton: {
     backgroundColor: '#fff',
     borderRadius: 5,
@@ -63,6 +72,8 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     boxShadow: ' 4px 6px rgba(0, 0, 0, 0.1)',
   },
+=======
+>>>>>>> 0cd26bae055ca4f3caa64f31726b251ec0cd513a
   regularText: {
     fontSize: 16,
     fontWeight: "400",

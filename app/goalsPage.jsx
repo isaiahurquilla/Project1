@@ -1,16 +1,28 @@
 import { StyleSheet, Text, View, ScrollView } from 'react-native'
 import React from 'react'
 import { Link } from 'expo-router'
+<<<<<<< HEAD
 
 const GoalsPage = () => {
     return (
         <ScrollView style={{ backgroundColor: "#ede6ff" }} contentContainerStyle={styles.scrollContainer}>
+=======
+import LinkButton from './LinkButton'
+
+const GoalsPage = () => {
+    return (
+        <ScrollView style={{ backgroundColor: '#ADD8E6' }} contentContainerStyle={styles.scrollContainer}>
+>>>>>>> 0cd26bae055ca4f3caa64f31726b251ec0cd513a
             <View style={styles.container}>
                 <Text style={styles.title}>Learning Goals</Text>
                     <Text style={styles.subTitle}>Isaiah's Goals</Text>
                     
                     
+<<<<<<< HEAD
                         <Text style={styles.goalTitle}>Master Linux</Text>
+=======
+                        <Text style={styles.goalTitle}>Improve in Linux</Text>
+>>>>>>> 0cd26bae055ca4f3caa64f31726b251ec0cd513a
                         <Text style={styles.goalText}>Build proficiency in Linux so that I can make apps more effectively without constantly searching up keyterms.{"\n\n"}</Text>
                     
                     
@@ -20,8 +32,13 @@ const GoalsPage = () => {
                     
                     
                     
+<<<<<<< HEAD
                         <Text style={styles.goalTitle}></Text>
                         <Text style={styles.goalText}>{"\n\n"}</Text>
+=======
+                        <Text style={styles.goalTitle}>Developing My Own Projects</Text>
+                        <Text style={styles.goalText}>I want to make an app that I can safely say is my own creation and improve in my ability to make projects such as these.{"\n\n"}</Text>
+>>>>>>> 0cd26bae055ca4f3caa64f31726b251ec0cd513a
                     
                 
 
@@ -43,7 +60,11 @@ const GoalsPage = () => {
                         <Text style={styles.goalText}>I want to improve my skills in programming languages such as JavaScript, and C++ as I feel there is room for improvement. I've also got my sights on learning other coding languages like LUA.{"\n\n"}</Text>
                     
                 
+<<<<<<< HEAD
                 <Link href="/" style={styles.linkButton}>Back to Home Page</Link>
+=======
+                <LinkButton href="/">Back to Home Page</LinkButton>
+>>>>>>> 0cd26bae055ca4f3caa64f31726b251ec0cd513a
             </View>
         </ScrollView>
     )
@@ -82,6 +103,7 @@ const styles = StyleSheet.create({
     fontWeight: 'normal', //Adjusted so text wouldn't be bold
     },
     linkButton: {
+<<<<<<< HEAD
         backgroundColor: '#4CAF50',
         borderRadius: 5,
         padding: 15,
@@ -91,4 +113,16 @@ const styles = StyleSheet.create({
         marginBottom: 20,
         overflow: 'hidden',
     },
+=======
+    backgroundColor: '#4CAF50',
+    borderRadius: 5,
+    padding: 20,
+    marginBottom: 20,
+    elevation: 3,
+    color: '#fff',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.1,
+    shadowRadius: 6,
+  }
+>>>>>>> 0cd26bae055ca4f3caa64f31726b251ec0cd513a
 })

@@ -1,6 +1,10 @@
 import { StyleSheet, Text, View, Image, ScrollView } from 'react-native'
 import React from 'react'
+<<<<<<< HEAD
 import { Link } from 'expo-router'
+=======
+import LinkButton from './LinkButton'
+>>>>>>> 0cd26bae055ca4f3caa64f31726b251ec0cd513a
 
 const IsaiahSP = () => {
     return (
@@ -10,7 +14,11 @@ const IsaiahSP = () => {
                 <Text style={styles.subTitle}>Skills</Text>
                 <Text style={styles.regularText}>
                     Some skills I have would include Java, Python, C++, I am currently learning how to use React Native.{"\n\n"}
+<<<<<<< HEAD
                     I haven't made any fully working personal projects besides simple things such as a library system on intellij.{"\n\n"} 
+=======
+                    I haven't made any fully working personal projects besides simple things such as a library system on intellij, which is available to be viewed on my GitHub link.{"\n\n"} 
+>>>>>>> 0cd26bae055ca4f3caa64f31726b251ec0cd513a
                     However, with some friends and classmates, we have made some projects such as a simple tower defense type game that mimics "plants vs zombies" called "college vs students".{"\n\n"}
                 </Text>
                 <Text style={styles.subTitle}>Project Ideas</Text>
@@ -21,7 +29,11 @@ const IsaiahSP = () => {
                     However, what I realized was that they're alll either too expensive, not user friendly and innaccurate.{"\n\n"}
                     So, I would like to make an app that is free, easy to use and accurate for counting individual items and not just premade meals.{"\n\n"}
                 </Text>
+<<<<<<< HEAD
                 <Link href="/" style={styles.linkButton}>Back to Home Page</Link>
+=======
+                <LinkButton href="/">Back to Home Page</LinkButton>
+>>>>>>> 0cd26bae055ca4f3caa64f31726b251ec0cd513a
             </View>
         </ScrollView>
     )
@@ -51,6 +63,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     width: '100%',
     },
+<<<<<<< HEAD
     linkButton: {
         backgroundColor: '#4CAF50',
         borderRadius: 5,
@@ -60,10 +73,16 @@ const styles = StyleSheet.create({
         color: '#fff',
         alignSelf: 'center',
     },
+=======
+>>>>>>> 0cd26bae055ca4f3caa64f31726b251ec0cd513a
     regularText: {
     fontSize: 16,
     fontWeight: "400",
     marginTop: 10, 
     marginBottom: 10
+<<<<<<< HEAD
   },
+=======
+  }
+>>>>>>> 0cd26bae055ca4f3caa64f31726b251ec0cd513a
 })
