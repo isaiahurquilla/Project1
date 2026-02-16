@@ -1,9 +1,6 @@
 import { StyleSheet, Text, View, Image, ScrollView } from 'react-native'
 import React from 'react'
-<<<<<<< HEAD
 import LottieView from 'lottie-react-native';
-=======
->>>>>>> 8733a23b28593ca72ba45e57e1c67d0374ad1a72
 import LinkButton from './LinkButton'
 
 const images = [
