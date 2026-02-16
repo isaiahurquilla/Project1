@@ -1,11 +1,7 @@
 import { StyleSheet, Text, View, Image, ScrollView } from 'react-native'
 import React from 'react'
 import Isaiah from '../assets/Isaiah.jpg'
-<<<<<<< HEAD
-import { Link } from 'expo-router'
-=======
 import LinkButton from './LinkButton'
->>>>>>> 0cd26bae055ca4f3caa64f31726b251ec0cd513a
 
 const AboutIsaiah = () => {
   return (
@@ -39,15 +35,9 @@ const AboutIsaiah = () => {
           For these reasons, I am striving towards becoming a software engineer, but I am also open to exploring other career paths in the tech industry.{"\n\n"}
         </Text>
 
-<<<<<<< HEAD
-        <Link href="/" style={styles.linkButton}>Back to Home Page</Link>
-        <Link href="https://github.com/isaiahurquilla" style={styles.linkButton}>Github Page</Link>
-        <Link href="/isaiahSP" style={styles.linkButton}>Skills and Projects</Link>
-=======
         <LinkButton href="/" style={styles.linkButton}>Back to Home Page</LinkButton>
         <LinkButton href="https://github.com/isaiahurquilla" style={styles.linkButton}>Github Page</LinkButton>
         <LinkButton href="/isaiahSP" style={styles.linkButton}>Skills and Projects</LinkButton>
->>>>>>> 0cd26bae055ca4f3caa64f31726b251ec0cd513a
       </View>
     </ScrollView>
   )
@@ -78,20 +68,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     width: '100%',
   },
-<<<<<<< HEAD
-  linkButton: {
-    backgroundColor: '#4CAF50',
-    borderRadius: 5,
-    padding: 20,
-    marginBottom: 20,
-    elevation: 3,
-    color: '#fff',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.1,
-    shadowRadius: 6,
-  },
-=======
->>>>>>> 0cd26bae055ca4f3caa64f31726b251ec0cd513a
   regularText: {
     fontSize: 16,
     fontWeight: "400",
